@@ -1,4 +1,7 @@
 <?php
+/**
+ * Venbhas FilterMultiselect Hyvä storefront integration
+ */
 
 use Magento\Framework\Component\ComponentRegistrar;
 
