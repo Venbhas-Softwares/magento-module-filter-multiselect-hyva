@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Venbhas_FilterMultiselectHyva">
         <sequence>
-            <module name="Hyva_Theme"/>
             <module name="Venbhas_FilterMultiselect"/>
+            <module name="Magento_LayeredNavigation"/>
+            <module name="Magento_CatalogSearch"/>
         </sequence>
     </module>
 </config>
